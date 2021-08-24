@@ -53,7 +53,6 @@ scene.add(pointLight2)
 gui.add(pointLight2.position, 'y').min(-3).max(3).step(0.01)
 gui.add(pointLight2.position, 'x').min(-6).max(6).step(0.01)
 gui.add(pointLight2.position, 'z').min(-3).max(3).step(0.01)
-gui.add(pointLight2, 'intensity').min(0).max(10).step(0.01)
 
 
 /**
